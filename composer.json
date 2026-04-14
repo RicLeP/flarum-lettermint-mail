@@ -26,7 +26,7 @@
     "extra": {
         "flarum-extension": {
             "id": "riclep-flarum-lettermint-mail",
-            "title": "Flarum Lettermint Mail",
+            "title": "Lettermint Mail",
             "description": "A Lettermint mail driver for Flarum 2.0",
             "icon": {
                 "image": "resources/assets/icon.svg",
