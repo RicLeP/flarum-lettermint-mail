@@ -1,0 +1,7 @@
+core:
+  admin:
+    email:
+      lettermint_heading: Lettermint
+      lettermint_description: Send emails using the Lettermint API.
+      lettermint_api_token_label: API Token
+      lettermint_route_label: Route (optional)

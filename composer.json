@@ -1,0 +1,27 @@
+{
+    "name": "riclep/flarum-lettermint-mail",
+    "description": "Flarum Lettermint mail driver",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^2.0",
+        "lettermint/lettermint-laravel": "^1.6"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Riclep\\FlarumLettermintMail\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "id": "riclep-flarum-lettermint-mail",
+            "title": "Flarum Lettermint Mail",
+            "description": "Flarum Lettermint mail driver",
+            "icon": {
+                "name": "envelope",
+                "color": "#000000"
+            }
+        }
+    }
+}
