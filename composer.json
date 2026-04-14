@@ -1,7 +1,17 @@
 {
     "name": "riclep/flarum-lettermint-mail",
-    "description": "Flarum Lettermint mail driver",
+    "description": "A Lettermint mail driver for Flarum 2.0",
+    "keywords": ["flarum", "mail", "driver", "lettermint"],
+    "homepage": "https://github.com/riclep/flarum-lettermint-mail/",
+    "license": "MIT",
     "type": "flarum-extension",
+    "authors": [
+        {
+            "name": "Richard Le Poidevin",
+            "email": "ric@sirric.co.uk",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "flarum/core": "^2.0",
         "lettermint/lettermint-laravel": "^1.6"
@@ -17,10 +27,11 @@
         "flarum-extension": {
             "id": "riclep-flarum-lettermint-mail",
             "title": "Flarum Lettermint Mail",
-            "description": "Flarum Lettermint mail driver",
+            "description": "A Lettermint mail driver for Flarum 2.0",
             "icon": {
-                "name": "envelope",
-                "color": "#000000"
+                "name": "fas fa-envelope",
+                "color": "#ffffff",
+                "background": "#40916c"
             }
         }
     }
