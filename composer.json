@@ -29,9 +29,10 @@
             "title": "Flarum Lettermint Mail",
             "description": "A Lettermint mail driver for Flarum 2.0",
             "icon": {
-                "name": "fas fa-envelope",
-                "color": "#ffffff",
-                "background": "#2D6A4F"
+                "image": "resources/assets/icon.svg",
+                "backgroundSize": "100%",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center"
             }
         }
     }
