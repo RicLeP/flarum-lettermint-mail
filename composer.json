@@ -14,7 +14,7 @@
     ],
     "require": {
         "flarum/core": "^2.0",
-        "lettermint/lettermint-laravel": "^1.6"
+        "lettermint/lettermint-laravel": "^1.6|^2.0|^3.0"
     },
     "minimum-stability": "beta",
     "prefer-stable": true,
